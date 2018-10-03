@@ -4,4 +4,5 @@
 
 ![](photo.jpg)
 
-Krystyna Macleod is a Graphic Designer, illustrator,
+I use to be in Animation but life turned and I switched careers.
+I am a Graphic Designer in Ottawa, Canada. I specialized illustrator, UX/Designer and identity branding.
