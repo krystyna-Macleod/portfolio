@@ -13,6 +13,10 @@ h1 {
   color: #404040;
 }
 
+h2, h3 {
+  color: #58A4B0;
+}
+
 h1:before,
 h1:after {
   background: #58A4B0;
@@ -47,14 +51,18 @@ h1:after {
 }
 
 .btn:hover {
-  background-color: #fff;
-  border-color: #fff;
-  font-family: #8B7C7B;
+  background-color: #F7DBD7;
+  border-color: #F7DBD7;
   border-radius: 25px;
 
-  color: #fff;
+  color: #8B7C7B;
 }
 
 .card-image {
   box-shadow: 3px 3px 15px #000;
+}
+
+footer {
+  background-color: #8B7C7B;
+  color: #fff;
 }
