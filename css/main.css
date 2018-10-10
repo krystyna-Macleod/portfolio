@@ -5,3 +5,34 @@ h1, h2 {
 h3, p {
   font-family: 'Comfortaa', cursive;
 }
+
+h1 {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+  color: #404040;
+}
+
+h1:before,
+h1:after {
+  background: #58A4B0;
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  width: 400%;
+}
+
+h1:before {
+  right: 100%;
+}
+
+h1:after {
+  left: 100%;
+}
+
+.container {
+  overflow: hidden;
+  text-align: center;
+}
