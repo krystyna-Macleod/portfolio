@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: #58a4b0;
+}
+
 h1, h2 {
   font-family: 'Playball', cursive;
 }
@@ -11,7 +16,7 @@ h1 {
 }
 
 h2, h3 {
-  color: #58A4B0;
+  color: #58a4b0;
 }
 
 .btn {
@@ -42,4 +47,19 @@ section {
 footer {
   background-color: #8B7C7B;
   color: #fff;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(to bottom, white 0%, white 49%, #58a4b0 49.1%, #58a4b0 49.9%, white 50%, white 100%);
+}
+
+.my-name {
+  background-color: #fff;
+}
+
+.nav-bar {
+  margin-top: 20px;
 }
