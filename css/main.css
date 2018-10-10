@@ -2,7 +2,7 @@ h1, h2 {
   font-family: 'Playball', cursive;
 }
 
-h3, p {
+h3, p, a {
   font-family: 'Comfortaa', cursive;
 }
 
@@ -44,4 +44,17 @@ h1:after {
   border-radius: 25px;
 
   color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  font-family: #8B7C7B;
+  border-radius: 25px;
+
+  color: #fff;
+}
+
+.card-image {
+  box-shadow: 3px 3px 15px #000;
 }
