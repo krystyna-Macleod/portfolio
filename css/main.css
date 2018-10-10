@@ -7,38 +7,11 @@ h3, p, a {
 }
 
 h1 {
-  display: inline-block;
-  padding: 0 15px;
-  position: relative;
   color: #404040;
 }
 
 h2, h3 {
   color: #58A4B0;
-}
-
-h1:before,
-h1:after {
-  background: #58A4B0;
-  content: "";
-  display: block;
-  height: 5px;
-  position: absolute;
-  top: 50%;
-  width: 400%;
-}
-
-h1:before {
-  right: 100%;
-}
-
-h1:after {
-  left: 100%;
-}
-
-.container {
-  overflow: hidden;
-  text-align: center;
 }
 
 .btn {
@@ -60,6 +33,10 @@ h1:after {
 
 .card-image {
   box-shadow: 3px 3px 15px #000;
+}
+
+section {
+  background-color: #F7DBD7;
 }
 
 footer {
