@@ -51,10 +51,7 @@ footer {
 }
 
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-image: linear-gradient(to bottom, white 0%, white 49%, #58a4b0 49.1%, #58a4b0 49.9%, white 50%, white 100%);
+  display: none;
 }
 
 .my-name {
@@ -75,6 +72,22 @@ footer {
   h1 {
     color: #404040;
     display: block;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, white 0%, white 49%, #58a4b0 49.1%, #58a4b0 49.9%, white 50%, white 100%);
+  }
+
+  .my-name {
+    background-color: #fff;
+    margin: 1px;
+  }
+
+  .nav-bar {
+    margin-top: 20px;
   }
 
 }
