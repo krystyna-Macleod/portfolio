@@ -51,7 +51,8 @@ footer {
 }
 
 .header {
-  display: none;
+  display: flex;
+  flex-direction: row;
 }
 
 .my-name {
