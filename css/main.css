@@ -13,6 +13,7 @@ h3, p, a {
 
 h1 {
   color: #404040;
+  display: none;
 }
 
 h2, h3 {
@@ -61,10 +62,18 @@ footer {
   margin: 1px;
 }
 
+.nav-bar {
+  margin-top: 5px;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav-bar {
     margin-top: 20px;
+  }
+
+  h1 {
+    color: #404040;
   }
 
 }
