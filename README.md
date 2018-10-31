@@ -4,8 +4,7 @@
 
 ![](photo.jpg)
 
-I use to be in Animation but life turned and I switched careers.
-I am a Graphic Designer in Ottawa, Canada. I specialized illustrator, UX/Designer and identity branding.
+My name is Krystyna Macleod and I am graphic designer interested in illustrations, UX/UI and branding. I am finishing my final year at Algonquin College for Graphic Design.
 
 - **[hey@krystynamacleod.ca](mailto:hey@krystynamacleod.design)**
 - [Github](http://github.com/krystynaMacleod)
