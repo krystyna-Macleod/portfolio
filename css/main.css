@@ -3,17 +3,14 @@ a {
   color: #58a4b0;
 }
 
-h1, h2 {
-  font-family: 'Playball', cursive;
-}
-
-h3, p, a {
+h2, h3, p, a {
   font-family: 'Comfortaa', cursive;
 }
 
 h1 {
   color: #404040;
   display: none;
+  font-family: 'Playball', cursive;
 }
 
 h2, h3 {
