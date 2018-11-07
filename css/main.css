@@ -3,6 +3,10 @@ a {
   color: #58a4b0;
 }
 
+a:hover {
+  border-color: #8B7C7B;
+}
+
 h2, h3, p, a {
   font-family: 'Comfortaa', cursive;
 }
@@ -39,7 +43,7 @@ h2, h3 {
 }
 
 .card-image {
-  box-shadow: 3px 3px 15px #000;
+  box-shadow: 3px 3px 10px #bcbec0;
 }
 
 section {
