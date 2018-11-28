@@ -52,36 +52,6 @@ caption {
   font-style: italic;
 }
 
-hr {
-  border: 0;
-  border-top: 2px solid #000;
-  height: 0;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  table-layout: fixed;
-}
-
-caption {
-  text-align: left;
-}
-
-th,
-td {
-  border-bottom: 1px solid #000;
-  text-align: left;
-  vertical-align: top;
-}
-
-thead th {
-  vertical-align: bottom;
-
-  border-bottom-width: 2px;
-}
-
 .text-left {
   text-align: left;
 }
@@ -158,25 +128,8 @@ ul,
 ol,
 dl,
 dd,
-figure,
-blockquote,
-details,
-hr,
-fieldset,
-pre,
-table,
-caption {
+figure {
   margin: 0 0 1.3rem;
-}
-
-.tenamega {
-  font-size: 2.0408rem;
-  line-height: 2.925rem;
-}
-
-.tenakilo {
-  font-size: 1.9127rem;
-  line-height: 2.6rem;
 }
 
 .tena {
@@ -248,28 +201,12 @@ small,
   line-height: 1.3rem;
 }
 
-.nano {
-  font-size: .8232rem;
-  line-height: 1.3rem;
-}
-
-.pico {
-  font-size: .7715rem;
-  line-height: 1.3rem;
-}
-
 ul {
   padding-left: 1em;
 }
 
 ol {
   padding-left: 1.6em;
-}
-
-input,
-option,
-select {
-  height: calc(1.3rem + .1625rem + .1625rem);
 }
 
 [type="color"] {
