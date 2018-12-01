@@ -8,13 +8,13 @@ a:hover {
 }
 
 h2, h3, p, a, figcaption {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', serif;
 }
 
 h1 {
   color: #404040;
   display: none;
-  font-family: 'Playball', cursive;
+  font-family: 'Playball', serif;
 }
 
 h2, h3 {
