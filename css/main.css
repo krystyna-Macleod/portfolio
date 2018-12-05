@@ -96,19 +96,7 @@ footer {
 /** 404 page **/
 
 #unicorn-tail {
-  animation: offset 2s easy-in-out;
-  animation-delay: 2s;
-}
-
-@keyframes #unicorn-tail {
-
-  0% {
-    transform: translateX(10px);
-  }
-
-  100% {
-    transform: translateX(-10px);
-  }
+  transform: rotate(-33deg);
 }
 
 @media only screen and (min-width: 25em) {
