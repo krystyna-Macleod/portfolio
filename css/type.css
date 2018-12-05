@@ -13,6 +13,35 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
+sub,
+sup {
+  font-size: .75em;
+  line-height: 1px;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-size: 1em;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
 b,
 strong {
   font-weight: bold;
@@ -91,9 +120,14 @@ caption {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p,
 ul,
 ol,
+dl,
+dd,
 figure {
   margin: 0 0 1.3rem;
 }
@@ -422,6 +456,21 @@ caption {
   width: 2.6rem;
 }
 
+select {
+  padding: 0 .1625rem;
+}
+
+fieldset {
+  padding: .325rem 0;
+
+  border: 0;
+  border-top: 2px solid #000;
+}
+
+legend {
+  padding-right: .325rem;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -432,12 +481,22 @@ caption {
   h1,
   h2,
   h3,
+  h4,
+  h5,
+  h6,
   p,
   ul,
   ol,
+  dl,
+  dd,
   figure,
+  blockquote,
+  details,
   hr,
-  pre {
+  fieldset,
+  pre,
+  table,
+  caption {
     margin: 0 0 1.4rem;
   }
 
@@ -839,10 +898,21 @@ caption {
   h2,
   h3,
   h4,
+  h5,
+  h6,
   p,
   ul,
   ol,
-  figure {
+  dl,
+  dd,
+  figure,
+  blockquote,
+  details,
+  hr,
+  fieldset,
+  pre,
+  table,
+  caption {
     margin: 0 0 1.5rem;
   }
 
@@ -1214,6 +1284,21 @@ caption {
   .i-2 {
     height: 3rem;
     width: 3rem;
+  }
+
+  select {
+    padding: 0 .1875rem;
+  }
+
+  fieldset {
+    padding: .375rem 0;
+
+    border: 0;
+    border-top: 2px solid #000;
+  }
+
+  legend {
+    padding-right: .375rem;
   }
 
 }
@@ -1228,12 +1313,22 @@ caption {
   h1,
   h2,
   h3,
+  h4,
+  h5,
+  h6,
   p,
   ul,
   ol,
   dl,
   dd,
-  figure {
+  figure,
+  blockquote,
+  details,
+  hr,
+  fieldset,
+  pre,
+  table,
+  caption {
     margin: 0 0 1.5rem;
   }
 
@@ -1605,6 +1700,21 @@ caption {
   .i-2 {
     height: 3rem;
     width: 3rem;
+  }
+
+  select {
+    padding: 0 .1875rem;
+  }
+
+  fieldset {
+    padding: .375rem 0;
+
+    border: 0;
+    border-top: 2px solid #000;
+  }
+
+  legend {
+    padding-right: .375rem;
   }
 
 }
