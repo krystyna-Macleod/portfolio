@@ -93,6 +93,14 @@ footer {
   margin-top: 20px;
 }
 
+/** 404 page **/
+
+#unicorn:hover {
+  transform: translateY(-10px);
+  transform-origin: center center;
+  transition: all .5s linear;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav-bar {
