@@ -95,13 +95,12 @@ footer {
 
 /** 404 page **/
 
-#unicorn:hover {
-  transform: translateY(-10px);
-  transform-origin: center center;
-  transition: all .5s linear;
+#unicorn-tail {
+  animation: offset 2s easy-in-out;
+  animation-delay: 2s;
 }
 
-@keyframes unicorn {
+@keyframes #unicorn-tail {
 
   0% {
     transform: translateX(10px);
