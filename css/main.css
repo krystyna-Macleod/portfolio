@@ -101,6 +101,17 @@ footer {
   transition: all .5s linear;
 }
 
+@keyframes unicorn {
+
+  0% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav-bar {
